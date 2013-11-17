@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>First task</title>
+  <title>First task</title>
+  <link href="style.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<header>
+        <div id="space-invader"></div>
 		<nav>
 			<ul>
 				<li><a href="#about">about</a></li>
@@ -29,7 +31,7 @@
 			<li>Question three</li>
 		</ul>
 	</section>
-	<section id="contacts">
+	<section id="contacts" class="contacts">
 		<p>Adress:</p>
 		<address>
 			<p>Kiev, Bogenka 78</p>
@@ -41,18 +43,18 @@
 	<section id="register">
 		<form action="register" method="post">
 			<label>Email</label>
-			<input name="mail" id="email" type="email" placeholder="fuckenmail@you.com">
+      <input name="mail" id="email" type="email" placeholder="fuckenmail@you.com"><br/>
 			<label>Password</label>
-			<input  name="password" id="pass" required="required" type="password" placeholder="password">
+      <input  name="password" id="pass" required="required" type="password" placeholder="password"><br/>
 			<label>Password confirmation</label>
-			<input name="passeord_confirmation" id="pass_confirmation" required="required" type="password" placeholder="password_confirmation">
+      <input name="passeord_confirmation" id="pass_confirmation" required="required" type="password" placeholder="password_confirmation"><br/>
 			<input type=submit>
 		</form>
 	</section>
-	<section>
+	<section class="feedback">
 		<p>Write your feedback:</p>
 		<form action="feedback" method="post">
-			<textarea name="message" id="feedback" required="required" placeholder="write your message"></textarea>
+      <textarea name="message" id="feedback" required="required" placeholder="write your message"></textarea><br/>
 			<input type=submit>
 		</form>
 	</section>
@@ -68,5 +70,6 @@
 		All rigths reserved &copy;
 		<a href="http://productforums.google.com/forum/#!topic/drive/dzy0qbHSqyI">Terms of service</a>
 	</footer>
+    <div id="star"></div>
 </body>
 </html>
