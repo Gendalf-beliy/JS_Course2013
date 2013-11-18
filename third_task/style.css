@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+}
+
+body {
+    margin: 10px 10px 10px 10px;
+    background-color:#3f3f3f;
+    color: #eeeeee;
+    font-family: Arial Unicode MS, Arial, sans-serif;
+}
+#wrapper {
+    margin: auto;
+    max-width: 960px;
+}
+header {
+    padding: 20px 0;
+}
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+a:hover{
+    color: #CFFE45;
+    text-decoration: none;
+}
+p:first-letter{
+    font-size: 1.2em;
+}
+header > nav {
+    height: 40px;
+    border: solid 2px;
+    text-align:center;
+    font-size: 1.6em;
+}
+header > nav > ul > li {
+    margin: 0;
+    padding: 8% 8%;
+}
+li {
+    display: inline;
+    margin: 4px 4px 4px 4px;
+    padding: 0;
+    list-style-type: none;
+}
+#contacts{
+    margin: 10px 0px 10px 0px;
+    background-color: #1a465a;
+    text-align: center;
+    font-size: 0.8em;
+}
+#register {
+    padding: 20px;
+    border: 2px solid #4899BE;
+    background-color: #FEF7D6;
+    color: #3E4A49;
+    text-align: center;
+    font-size: 1em;
+}
+input, select
+{
+    margin: 1em 0 0 0;
+    padding: 2px;
+    width: 50%;
+    border: 1px solid #FEF7D6;
+}
+textarea {
+    padding: 2px;
+    border: 1px solid #FEF7D6;
+}
+input:focus, select:focus
+{
+    border: 1px solid #4899BE;
+}
+#about, #faq, #register, #contacts, #feedback {
+    display: block;
+    border: solid 2px;
+}
+#faq > p:first-of-type {
+    text-align: center;
+    font-size: 1.6em;
+}
+#contacts > p:first-of-type {
+    text-align: center;
+    font-size: 1.6em;
+}
+#about > img:first-of-type {
+    float: left;
+    margin: 7px 7px 7px 7px;
+}
+#about > img {
+    float: right;
+    margin: 7px 7px 7px 7px;
+}
+#contacts > img {
+    float: left;
+    margin: 7px 7px 7px 7px;
+    width: 10%;
+}
+
+/*footer*/
+footer {
+    margin: auto;
+    padding: 10px 0;   
+}
+/*vraper*/
+.footerform {
+  display: inline-block; 
+}
+/*first*/
+.navigation{
+  display: block;
+  float:left;
+  width: 475px;
+  height:140px;
+  text-align: left;
+}
+footer a {
+  display: block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+#feedback {
+  float: right;
+  width: 475px;
+  height:140px;
+}
+/*second*/
+.feedback {
+  display: inline-block;
+}
+.rights {
+  text-align: center;
+}
